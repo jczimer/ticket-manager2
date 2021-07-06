@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://192.168.3.202:3306/tickets
+    username: root
+    password: Skol1397
+  jpa:
+    show-sql: true
